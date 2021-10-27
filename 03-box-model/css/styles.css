@@ -1,0 +1,32 @@
+/* box model se refiere a la caja de cada contenido que tiene un html, es lo que lo envuelve 
+para calcular el total del hancho o alto se calcula la suma del contenido+padding+barder+margin
+*/
+
+h1 {
+  text-align: center;
+  color: #e63943;
+}
+
+.caja1 {
+  padding: 10px 2px 15px;
+  border: solid 10px steelblue;
+  margin: 30px;
+  background-color: white;
+  max-width: 300px; /* establece el maximo del tamaño y se va ajustando a la pantalla */
+  /* outline: 10px solid #a8dadc; */
+  box-sizing: border-box; /* boxsizing define cual es el limite de tamaño de un contenido, por ejemplo en este caso el maximo sera de 300px */
+}
+.caja2 {
+  padding: 10px 2px 15px;
+  border: solid 10px steelblue;
+  margin: 20px;
+  background-color: white;
+  max-width: 300px; /* establece el maximo del tamaño y se va ajustando a la pantalla */
+  /* outline: 10px solid #a8dadc; */
+  box-sizing: border-box; /* boxsizing define cual es el limite de tamaño de un contenido, por ejemplo en este caso el maximo sera de 300px */
+}
+
+/* .interno {
+  margin-left: inherit;
+}
+ */
