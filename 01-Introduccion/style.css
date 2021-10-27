@@ -1,0 +1,30 @@
+/* important toma prioridad sobre inline style 
+color: yellow !important; */
+/* * {
+  background-color: ghostwhite;
+}
+
+#title {
+  color: crimson;
+  text-align: center;
+  font-size: 100px;
+}
+
+.centrar {
+  text-align: center;
+}
+
+.texto_grande {
+  font-size: 20px;
+}
+ */
+
+/* h1,
+h2,
+p {
+  color: crimson;
+  text-align: center;
+} */
+p.centrar {
+  text-align: center;
+}
