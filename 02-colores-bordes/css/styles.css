@@ -1,0 +1,40 @@
+h1 {
+  text-align: center;
+}
+
+.rojo {
+  background-color: firebrick;
+}
+.rosa {
+  background-color: palevioletred;
+}
+.amarillo {
+  background-color: gold;
+}
+.violeta {
+  background-color: indigo;
+}
+.rojo,
+.rosa,
+.violeta {
+  color: white;
+}
+
+.borde {
+  border-style: solid;
+  border-color: lightgreen lightsalmon lime goldenrod;
+  border-width: 10px 5px 2px;
+  border-radius: 15px; /* 
+  - si tenemos 2 valores se aplica top,bottom y left,right
+  - si tenemos 4 valores toma el sentido del reloj (top, right, bottom, left)
+  - si tenemos 3 valores toma el primero para top, left y right el segundo y por ultimo bottom 
+  
+  -es lo mismo con los colores y radio de bordes
+  */
+}
+.borde2 {
+  border: dotted 10px #ffd700;
+}
+.ellaes {
+  border-style: dotted solid dashed groove;
+}
