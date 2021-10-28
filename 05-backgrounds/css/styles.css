@@ -1,0 +1,19 @@
+body {
+  /* cargar color de fondo similar a la imagen por si no carga */
+  color: cornsilk;
+  background-attachment: scroll;
+  background: url("/05-backgrounds/img/fondo.png") dodgerblue no-repeat right
+    top;
+
+  /* 
+  background-image: url("/05-backgrounds/img/fondo.png");
+  background-repeat: no-repeat;
+  background-position: right top; 
+  background-color: dodgerblue;
+  */
+}
+
+h1 {
+  text-align: center;
+  /* background-color: dodgerblue; */
+}
