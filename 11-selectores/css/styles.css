@@ -1,0 +1,31 @@
+h1 {
+  text-align: center;
+  color: #e63946;
+}
+
+div.contenedor {
+  width: 80%;
+  height: 20%;
+  margin: auto;
+  border: 3px solid #a8dadc;
+  padding: 15px;
+  color: blue;
+}
+
+div.contenedor.decendiente p {
+  background-color: yellowgreen;
+}
+
+div.contenedor.hijo > p {
+  /* esto solo selecciona los hijos directos */
+  background-color: #ffc6ff;
+}
+
+div.contenedor.adyacente + p {
+  /* selecciona el elemento que sigue despues del div */
+  background-color: coral;
+}
+div.contenedor.hermano ~ p {
+  /* selecciona el elemento que sigue despues del div */
+  background-color: darkcyan;
+}

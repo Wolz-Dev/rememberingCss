@@ -1,0 +1,33 @@
+h1 {
+  text-align: center;
+  color: yellowgreen;
+}
+
+div.contenedor {
+  width: 30%;
+  height: 20%;
+  margin: auto;
+  border: 3px solid crimson;
+  padding: 15px;
+  color: darkcyan;
+}
+
+div.contenedor:hover {
+  background-color: #457b9d;
+  color: #f1faee;
+}
+
+div.contenedor.oculto p {
+  display: none;
+}
+
+div.contenedor.oculto:hover p {
+  display: block;
+  background-color: #a8dadc;
+  color: blue;
+  pad: 15px;
+}
+
+dic.contenedor.primero p:first-child {
+  font-variant: small-caps;
+}
