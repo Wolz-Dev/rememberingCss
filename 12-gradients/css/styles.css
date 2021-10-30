@@ -1,0 +1,24 @@
+/* html {
+  height: auto;
+  min-height: 100%;
+}
+
+body {
+  background: linear-gradient(190deg, #f72585, #3a0ca3, black);
+  color: white;
+} */
+
+h1 {
+  text-align: center;
+  text-shadow: 2px 2px 5px grey; /* 1- eje x, 2- eje y 3- blur */
+}
+
+div.contenedor {
+  width: 30%;
+  height: 20%;
+  margin: auto;
+  border: 3px solid #a8dadc;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 2px 2px 3px 2px greenyellow; /* 1- eje x, 2- eje y. 3- blur, 4- tamaño de sombra */
+}
